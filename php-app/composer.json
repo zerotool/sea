@@ -1,0 +1,30 @@
+{
+  "name": "sea/naval-prototype",
+  "description": "PHP backend for sea battle prototype",
+  "require": {
+    "ext-redis": "*",
+    "ext-rdkafka": "*",
+    "symfony/http-foundation": "^6.4",
+    "symfony/routing": "^6.4",
+    "symfony/serializer": "^6.4",
+    "symfony/cache": "^6.4",
+    "symfony/event-dispatcher": "^6.4",
+    "cboden/ratchet": "^0.4.4",
+    "react/event-loop": "^1.5",
+    "clue/redis-react": "^2.8",
+    "symfony/yaml": "^6.4"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "Sea\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  }
+}

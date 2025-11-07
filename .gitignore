@@ -1,0 +1,4 @@
+node_modules/
+client/node_modules/
+php-app/vendor/
+.DS_Store

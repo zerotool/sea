@@ -1,0 +1,15 @@
+grid:
+  hexSize: 80
+  rowLabels: [A, B, C, D]
+  cols: 6
+movement:
+  shipSpeed: 220
+  sessionTtlSeconds: 300
+  pendingMoveTtlSeconds: 30
+persistence:
+  redisKey: ship_state_v2
+  wsChannel: ship_updates
+kafka:
+  topic: movement-intents
+broadcast:
+  fleetIntervalMs: 150
